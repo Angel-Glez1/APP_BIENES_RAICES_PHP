@@ -1,0 +1,45 @@
+.inicio {
+	background-image: url(../img/header.jpg);
+}
+
+.header {
+	background-color: $grisOscuro;
+	padding: 1rem 0 3rem 0;
+
+	&.inicio {
+
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+
+
+		@include tablet {
+			min-height: 70rem;
+		}
+
+		.contenido-header {
+
+			// Heredar la altura del padre para que el texto de ponga hasta abajo
+			@include tablet {
+				min-height: 70rem;
+			}
+		}
+	}
+}
+
+.contenido-header {
+
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+
+
+
+	h1 {
+		text-align: start;
+		color: $blanco;
+		font-weight: $bold;
+		line-height: 2;
+		max-width: 60rem;
+	}
+}

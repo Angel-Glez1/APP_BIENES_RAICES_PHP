@@ -1,0 +1,33 @@
+.seccion {
+    margin-top: $separacion / 2;
+    margin-bottom: $separacion / 2;
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+
+.bg-red-400 {
+    background-color: #fecaca;
+    border-left: .2rem solid #dc2626;
+    color: #b91c1c;
+    font-size: 1.5rem;
+    padding: .4rem 2rem;
+    // width: 50%;
+    font-weight: bold;
+}
+
+.bg-green-400 {
+    background-color: #BBF7D0;
+    border-left: .2rem solid #15803D;
+    color: #15803D;
+    font-size: 1.5rem;
+    padding: .4rem 2rem;
+    // width: 50%;
+    font-weight: bold;
+}
